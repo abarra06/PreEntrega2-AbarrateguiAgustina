@@ -3,7 +3,7 @@
 }
 
 #nuestra-empresa {
-  background-color: #00033a;
+  background-color: hsl(237, 100%, 11%);
 }
 
 .color-texto {
@@ -78,9 +78,11 @@
 }
 
 .title::first-line {
-  color: red;
+  color: #00033a;
 }
-
+.mb-2,.mb-3{
+  text-align: center;
+}
 
 @media only screen and (max-width: 1024px) {
   .d-none-sm {
