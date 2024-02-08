@@ -1,0 +1,95 @@
+.color-fondo {
+  background-color: #00033a;
+}
+
+#nuestra-empresa {
+  background-color: #00033a;
+}
+
+.color-texto {
+  color: azure;
+}
+
+.color-encabezado {
+  color: #c5c5c5;
+}
+
+.color-seccion {
+  background-color: aliceblue;
+}
+
+.color-horarios {
+  background-color: #ff0f0f;
+}
+
+.color-dias {
+  background-color: #ffffff;
+}
+
+.col-sm-2,
+.col-sm-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #cd0606;
+  margin-bottom: 20px;
+}
+
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #00033a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button:hover {
+  background-color: #db3434;
+  color: white;
+}
+
+.col-md {
+  padding: 10px;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.min-vh-90 {
+  min-height: 90vh;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+.btn-primary {
+  background-color: #ff0f0f !important;
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.title::first-line {
+  color: red;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .d-none-sm {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 980px) {
+  footer {
+    text-align: center;
+  }
+}
